@@ -1,80 +1,81 @@
-<h1 align="center">Hey, I'm Sai Sridhar 👋</h1>
+<div align="center">
 
-<p align="center">
-  <em>ECE undergrad @ BITS Pilani Goa &nbsp;·&nbsp; RTL & Embedded Systems &nbsp;·&nbsp; Full-Stack Web &nbsp;·&nbsp; ML</em>
-</p>
+# V V Sai Sridhar
 
-<p align="center">
-  <a href="mailto:sridharvvs1124@gmail.com">📧 Email</a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/saisridhar77">💼 LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/saisridhar77">🐙 GitHub</a>
-</p>
+**Electronics & Communication Engineering · BITS Pilani, Goa Campus**
+
+[Email](mailto:sridharvvs1124@gmail.com) · [LinkedIn](https://linkedin.com/in/saisridhar77) · [GitHub](https://github.com/saisridhar77)
+
+</div>
 
 ---
 
-### About Me
+## About
 
-I'm a third-year Electronics & Communication student who loves working across the full stack — from writing RTL in SystemVerilog to building web apps in Next.js, to training RL agents. I'm currently researching mixed-criticality real-time scheduling for AUTOSAR platforms and building out-of-order RISC-V processors for fun.
+I am a third-year ECE undergraduate at BITS Pilani with interests spanning RTL design, embedded systems, real-time operating systems, and full-stack web development. I work across the hardware-software boundary — from writing synthesisable SystemVerilog and Linux kernel drivers to building production web applications.
 
-- 🔬 &nbsp;Research: Mixed-criticality scheduling (EDF-VD) under Prof. Biju K. Raveendran
-- 🛠️ &nbsp;Building: OOO RISC-V processor · CDC Verification Framework · Real-time task offloader
-- 🌐 &nbsp;Led web dev for 30+ developers @ DevSoc, BITS Goa — shipped 6 production systems
-- ✈️ &nbsp;Interned @ CSIR-NAL designing cascaded PID controllers for 6-DOF UAVs
+Currently researching mixed-criticality real-time scheduling for AUTOSAR multicore platforms under Prof. Biju K. Raveendran.
 
 ---
 
-### What I Work With
+## Work
 
-**Hardware & Embedded**
+**Research Intern — CSIR National Aerospace Laboratories** *(Jun – Jul 2025)*  
+Designed cascaded PID control architectures for 6-DOF multi-rotor UAV attitude stabilisation in MATLAB/Simulink. Achieved under 5% overshoot and 0.8 s settling time across all axes via Bode-plot tuning.
 
-![Verilog](https://img.shields.io/badge/Verilog%2FSystemVerilog-4A90D9?style=flat-square)
-![VCS](https://img.shields.io/badge/Synopsys%20VCS-A259FF?style=flat-square)
-![SpyGlass](https://img.shields.io/badge/SpyGlass%20CDC-FF6B6B?style=flat-square)
-![Vivado](https://img.shields.io/badge/Xilinx%20Vivado-E8834D?style=flat-square)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-brightgreen?style=flat-square)
-![MATLAB](https://img.shields.io/badge/MATLAB%2FSimulink-0076A8?style=flat-square)
-
-**Software & Web**
-
-![C](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**ML & AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+**Head of Web Development — Developers' Society, BITS Goa** *(May 2025 – Apr 2026)*  
+Led a 30-member team to deliver six production systems including an e-commerce platform and high-traffic fest portals. Introduced CI/CD pipelines and structured onboarding that reduced ramp-up time to four weeks.
 
 ---
 
-### Featured Projects
+## Selected Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [🔁 Async FIFO + CDC Framework](https://github.com/saisridhar77) | Depth-16 async FIFO with gray-code CDC, SVA assertions, 100% functional coverage | SystemVerilog, VCS, SpyGlass |
-| [⚙️ OOO RISC-V Processor](https://github.com/saisridhar77) | Superscalar out-of-order processor using Tomasulo's algo, RAT & ROB, synthesised on Artix-7 | Verilog, Vivado |
-| [🐧 Real-Time Task Offloader](https://github.com/saisridhar77) | Linux char driver + STM32 firmware with <20µs jitter via custom IOCTL | C, Linux Kernel, FreeRTOS |
-| [🤖 Continuum Robot RL](https://github.com/saisridhar77) | Physics-based RL env for continuum robot control using PPO | Python, PyTorch |
-| [🛒 SWD Store](https://github.com/saisridhar77) | E-commerce platform for student clubs @ BITS Goa | Next.js, Node.js, MongoDB |
+### Hardware & Systems
+
+**[Async FIFO with Gray-Code CDC](https://github.com/saisridhar77)**  
+Depth-16 asynchronous FIFO with gray-code pointers and two-FF synchronisers on each clock-domain crossing. Self-checking SystemVerilog testbench covers full, empty, reset, and simultaneous read/write edge cases. SVA assertions for overflow, underflow, and single-bit gray transitions pass cleanly under VCS.
+
+**[CDC Verification Framework](https://github.com/saisridhar77)**  
+Three-layer CDC environment built on the async FIFO: SpyGlass static analysis, SVA monitors, and functional coverage. Resolved three structural violations and achieved clean sign-off. Non-intrusive CDC monitor bound via SystemVerilog `bind`; 100% functional coverage across all scenarios.
+
+**[Out-of-Order RISC-V Processor](https://github.com/saisridhar77)**  
+Superscalar out-of-order processor in Verilog using Tomasulo's algorithm end-to-end. Register Alias Table and Reorder Buffer eliminate WAR/WAW hazards and enable safe speculation. Synthesised on Artix-7 via Vivado; timing closure confirmed with post-synthesis LUT/FF utilisation reported.
+
+**[Deterministic Real-Time Task Offloader](https://github.com/saisridhar77)**  
+Linux character driver paired with bare-metal STM32 firmware to offload latency-critical host workloads. System jitter compressed to under 20 µs by routing payloads through a custom IOCTL, bypassing TTY overhead. Packed serialisation protocol handles correct data alignment between 64-bit Linux host and 32-bit MCU.
+
+### Software & ML
+
+**[Continuum Robot RL](https://github.com/saisridhar77)**  
+Physics-based simulation environment for continuum robot end-effector control using Proximal Policy Optimisation. Designed reward functions and observation space to improve policy convergence.
+
+**[SWD Store](https://github.com/saisridhar77)**  
+Full-stack e-commerce platform enabling student clubs at BITS Goa to manage and sell products online. Built with Next.js, Node.js, and MongoDB; deployed in production.
 
 ---
 
-### GitHub Stats
+## Technical Skills
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saisridhar77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saisridhar77&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+| Domain | Tools & Technologies |
+|---|---|
+| HDL & Verification | SystemVerilog, Verilog, SVA, Synopsys VCS, SpyGlass CDC |
+| FPGA & EDA | Xilinx Vivado, Cadence Virtuoso, LTSpice |
+| Embedded & OS | STM32, FreeRTOS, Bare-Metal ISR, UART/SPI/I2C, Linux Device Drivers |
+| Languages | C, C++, Python, ARM Assembly, JavaScript |
+| Web | React, Next.js, Node.js, Express.js, MongoDB, Tailwind CSS |
+| ML & Control | PyTorch, TensorFlow, MATLAB/Simulink, Reinforcement Learning |
 
 ---
 
-<p align="center">
-  <sub>Always happy to talk hardware, systems, or web — reach me at sridharvvs1124@gmail.com</sub>
-</p>
+## Education
+
+**B.E. Electronics and Communication Engineering**  
+Birla Institute of Technology and Science, Pilani — Goa Campus · CGPA 8.6 / 10 · 2023 – 2027
+
+Relevant coursework: Digital VLSI Design · Computer Architecture · Operating Systems · DSP · Digital Design · Microprocessors & Microcontrollers · DSA · OOP · Control Systems · Computer Networks
+
+---
+
+<div align="center">
+<sub>sridharvvs1124@gmail.com</sub>
+</div>
